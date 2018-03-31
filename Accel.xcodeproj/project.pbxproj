@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		72D5D97F206D5BCB008B4166 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72D5D97D206D5BCB008B4166 /* AVKit.framework */; };
+		72D5D980206D5BCB008B4166 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72D5D97E206D5BCB008B4166 /* AVFoundation.framework */; };
+		72D5D983206D5E4E008B4166 /* IMG_2917.m4v in Resources */ = {isa = PBXBuildFile; fileRef = 72D5D982206D5E4E008B4166 /* IMG_2917.m4v */; };
 		72EFC164206D469C00DE9B16 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72EFC163206D469C00DE9B16 /* AppDelegate.swift */; };
 		72EFC166206D469C00DE9B16 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72EFC165206D469C00DE9B16 /* ViewController.swift */; };
 		72EFC169206D469C00DE9B16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72EFC167206D469C00DE9B16 /* Main.storyboard */; };
@@ -14,6 +17,8 @@
 		72EFC16E206D469C00DE9B16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72EFC16C206D469C00DE9B16 /* LaunchScreen.storyboard */; };
 		72EFC179206D469D00DE9B16 /* AccelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72EFC178206D469D00DE9B16 /* AccelTests.swift */; };
 		72EFC184206D469D00DE9B16 /* AccelUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72EFC183206D469D00DE9B16 /* AccelUITests.swift */; };
+		72FEEF78206D910B006E3B12 /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FEEF77206D910B006E3B12 /* VideoViewController.swift */; };
+		72FEEFBE206D9ECC006E3B12 /* tomato_explode.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 72FEEFBD206D9ECB006E3B12 /* tomato_explode.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		72D5D97D206D5BCB008B4166 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		72D5D97E206D5BCB008B4166 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		72D5D982206D5E4E008B4166 /* IMG_2917.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; path = IMG_2917.m4v; sourceTree = "<group>"; };
 		72EFC160206D469B00DE9B16 /* Accel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Accel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		72EFC163206D469C00DE9B16 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		72EFC165206D469C00DE9B16 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +55,8 @@
 		72EFC17F206D469D00DE9B16 /* AccelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AccelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		72EFC183206D469D00DE9B16 /* AccelUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccelUITests.swift; sourceTree = "<group>"; };
 		72EFC185206D469D00DE9B16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72FEEF77206D910B006E3B12 /* VideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoViewController.swift; sourceTree = "<group>"; };
+		72FEEFBD206D9ECB006E3B12 /* tomato_explode.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = tomato_explode.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +64,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72D5D97F206D5BCB008B4166 /* AVKit.framework in Frameworks */,
+				72D5D980206D5BCB008B4166 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +86,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		72D5D97C206D5BCA008B4166 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				72D5D97E206D5BCB008B4166 /* AVFoundation.framework */,
+				72D5D97D206D5BCB008B4166 /* AVKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		72EFC157206D469B00DE9B16 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +102,7 @@
 				72EFC177206D469D00DE9B16 /* AccelTests */,
 				72EFC182206D469D00DE9B16 /* AccelUITests */,
 				72EFC161206D469B00DE9B16 /* Products */,
+				72D5D97C206D5BCA008B4166 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,9 +119,12 @@
 		72EFC162206D469B00DE9B16 /* Accel */ = {
 			isa = PBXGroup;
 			children = (
+				72D5D982206D5E4E008B4166 /* IMG_2917.m4v */,
+				72FEEFBD206D9ECB006E3B12 /* tomato_explode.mp4 */,
 				72EFC163206D469C00DE9B16 /* AppDelegate.swift */,
 				72EFC165206D469C00DE9B16 /* ViewController.swift */,
 				72EFC167206D469C00DE9B16 /* Main.storyboard */,
+				72FEEF77206D910B006E3B12 /* VideoViewController.swift */,
 				72EFC16A206D469C00DE9B16 /* Assets.xcassets */,
 				72EFC16C206D469C00DE9B16 /* LaunchScreen.storyboard */,
 				72EFC16F206D469C00DE9B16 /* Info.plist */,
@@ -232,7 +257,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72D5D983206D5E4E008B4166 /* IMG_2917.m4v in Resources */,
 				72EFC16E206D469C00DE9B16 /* LaunchScreen.storyboard in Resources */,
+				72FEEFBE206D9ECC006E3B12 /* tomato_explode.mp4 in Resources */,
 				72EFC16B206D469C00DE9B16 /* Assets.xcassets in Resources */,
 				72EFC169206D469C00DE9B16 /* Main.storyboard in Resources */,
 			);
@@ -261,6 +288,7 @@
 			files = (
 				72EFC166206D469C00DE9B16 /* ViewController.swift in Sources */,
 				72EFC164206D469C00DE9B16 /* AppDelegate.swift in Sources */,
+				72FEEF78206D910B006E3B12 /* VideoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
